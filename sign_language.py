@@ -30,7 +30,7 @@ while True:
             cv2.circle(img,(x,y),15,(255,0,0),cv2.FILLED)
         if lm_list[tip].x<lm_list[tip-3].x:
             cv2.circle(img,(x,y),15,(0,255,0),cv2.FILLED)
-            finger_fold_status.append[True]
+            finger_fold_status.append(True)
         else:
             finger_fold_status.append(False)
 
